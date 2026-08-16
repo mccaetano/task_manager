@@ -58,7 +58,13 @@ logging:
     root: info
     '[org.springframework.data]': debug
 
-
+springdoc:
+  api-docs:
+    path: '/api/docs'
+  enable-spring-security: true
+  model-converters:
+    pageable-converter:
+      enabled: true
 
 security:
   jwt:
