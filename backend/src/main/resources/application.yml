@@ -65,6 +65,8 @@ springdoc:
   model-converters:
     pageable-converter:
       enabled: true
+  swagger-ui:
+    path: '/api/docs/swagger-ui.html'
 
 security:
   jwt:
